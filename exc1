@@ -1,3 +1,144 @@
+#Tutle exc - 1
+
+# def greeting():
+#     print ("Hello world")
+
+# greeting()
+import turtle
+
+# def draw_a_line():
+#     turtle.forward(50)
+
+# draw_a_line()
+
+# def draw_a_L():
+#     turtle.forward(50)
+#     turtle.left(90)
+#     turtle.forward(100)
+
+# draw_a_L()
+
+# def draw_a_square():
+#     turtle.forward(40)
+
+#     turtle.left(90)
+#     turtle.forward(40)
+
+#     turtle.left(90)
+#     turtle.forward(40)
+
+#     turtle.left(90)
+#     turtle.forward(40)
+
+# draw_a_square()
+
+# def draw_tri():
+#     turtle.forward(50)
+#     turtle.left(120)
+#     turtle.forward(50)
+#     turtle.left(120)
+#     turtle.forward(50)
+
+# draw_tri()
+
+# def line():
+
+#     Length=50
+
+#     turtle.forward(Length)
+
+
+# line()
+
+# def s_with_v():
+
+#     length = 40
+#     angle = 90
+
+#     turtle.forward(length)
+#     turtle.left(angle)
+#     turtle.forward(length)
+#     turtle.left(angle)
+#     turtle.forward(length)
+#     turtle.left(angle)
+#     turtle.forward(length)
+
+# s_with_v()
+
+# def draw_a_spiral():
+
+#     right_angle = 90
+#     length=5
+
+#     turtle.forward(length)
+#     turtle.left(right_angle)
+#     length= length+0
+
+#     turtle.forward(length)
+#     turtle.left(right_angle)
+#     length= length+5
+
+#     turtle.forward(length)
+#     turtle.left(right_angle)
+#     length= length+5
+
+#     turtle.forward(length)
+#     turtle.left(right_angle)
+#     length= length+10
+
+#     turtle.forward(length)
+#     turtle.left(right_angle)
+#     length= length+15
+
+#     turtle.forward(length)
+#     turtle.left(right_angle)
+#     length= length+25
+
+#     turtle.forward(length)
+#     turtle.left(right_angle)
+#     length= length+40
+
+#     turtle.forward(length)
+#     turtle.left(right_angle)
+#     length= length+65
+
+#     turtle.forward(length)
+#     turtle.left(right_angle)
+
+
+# draw_a_spiral()
+
+# def d_spiral_v():
+#     right_angle = 90
+#     length = 5
+#     t_color = 'green'
+
+#     turtle.color(t_color)
+
+# d_spiral_v()
+
+def draw_red_square_w():
+    angle=90
+    length=150
+    num_sides=4
+
+    i=0
+
+    while i<num_sides:
+        if turtle.color("red") == True:
+            turtle.color("red")
+            turtle.forward(length)
+            turtle.left(angle)
+            i=i+1
+    turtle.color("black")
+
+draw_red_square_w()
+
+
+#exc 2
+
+
+
 # print('The game is about to start...')
 # print('Booting up...')
 # print('...')
