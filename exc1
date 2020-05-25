@@ -135,6 +135,96 @@ def draw_red_square_w():
 draw_red_square_w()
 
 
+
+#lect 2 strings input
+adjective_1 = input('Enter an adjective: ')
+noun_1 = input('Enter a noun: ')
+noun_2 = input('Enter another noun: ')
+adjective_2 = input('Enter another adjective: ')
+
+print(f"Roses are {adjective_1}")
+print(noun_1.title() + " are blue")
+print(f"{noun_2.title()} is {adjective_2}")
+print("And so are you!")
+
+
+# nickname = input("Nickname? ")
+# while len(nickname) < 5:
+#     print("Sorry, that's too short! Pick something longer!")
+#     nickname = input("Nickname? ")
+
+# nickname = nickname.title()
+
+# print("Hiya", nickname)
+
+
+# not user friendly
+# nickname = input("Nickname? ")
+
+# if len(nickname) < 5:
+#     print("That's too short!")
+#     # ask them to try again
+# else:
+#     nickname = nickname.title()
+#     print("Hiya", nickname)
+
+
+
+# you can use try to prevent this
+# https://www.w3schools.com/python/python_try_except.asp
+# pets = int(input("How many pets? "))
+
+# if pets > 10:
+#     print("You're covered in fur!")
+
+# if pets == 0:
+#     print("You should get one!")
+
+
+# # String Formatting
+# name = "Brighticorn"
+
+# # 1st way
+# print('Hi, ' + name + '!')
+
+# # 2nd way
+# print('Hi,', name, '!')
+
+# # 3rd way
+# greeting = good morning
+# print('Hi, {}! {}'.format(name, greeting))
+
+# # 4th way (only in Python 3.6 and higher)
+# greeting = 'Good morning!'
+# print(f'Hi, {name}! {greeting}')
+
+
+
+# favorite_number = input('What is your favorite number?')
+
+# print('What is your name?')
+# user_name = input('> ')
+
+# if user_name.lower() == 'brighticorn':
+#     print("Hey! That's name of our mascot")
+# else:
+#     print(f"Hello, {user_name}")
+
+#"Roses are ___
+#___ are blue 
+# ___  is ____
+# And so are you!
+# adjective_1 = "different"
+# noun_1 = "dogs"
+# noun_2 = "San Francisco"
+# adjective_2 = "amazing"
+
+# print(f"Roses are {adjective_1}")
+# print(noun_1 + " are blue")
+# print(f"{noun_2} is {adjective_2}")
+# print("And so are you!")
+
+
 #exc 2
 
 
