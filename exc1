@@ -224,6 +224,34 @@ print("And so are you!")
 # print(f"{noun_2} is {adjective_2}")
 # print("And so are you!")
 
+#updated
+
+# This python file has Brighticorn's original code
+
+adjective_1 = "different"
+noun_1 = "dogs"
+noun_2 = "San Francisco"
+adjective_2 = "amazing"
+
+print("Roses are " + adjective_1)
+print(noun_1 + " are blue")
+print(noun_2 + " is " + adjective_2)
+print("And so are you!")
+
+#madlib updated
+
+# This python file has the updated code from lecture
+
+adjective_1 = input("Type adjective, press enter: ")
+noun_1 = input("Type a plural noun, press enter: ")
+noun_2 = input("Type another noun, press enter: ")
+adjective_2 = input("Type an adjective, press enter: ")
+
+print("Roses are {},".format(adjective_1))
+print("{} are blue,".format(noun_1.title()))
+print("{} is {}".format(noun_2.title(), adjective_2))
+print("And so are you!")
+
 
 #exc 2
 
