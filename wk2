@@ -1,0 +1,31 @@
+#Tues
+
+# print("Hello world")
+
+# print("Record your observations: ")
+
+# while True:
+#    print("What do you see?")
+#    var_observe = input("> ") 
+#    if var_observe == "":
+#        break
+#    if not (var_observe.endswith(".")): 
+#         var_observe = var_observe + "."
+#    print(var_observe)
+
+
+# print("Finished observations.")
+
+wrong_number = 0
+while True:
+    code = ("1234")
+    if door_code = (input("Please enter code: "):
+        if (code == 1234):
+            print("Nice job!")
+        else:
+            print("Wrong guess: ", wrong_number)
+    else:
+        print("Invalid!")
+print("Welcome to Mars!")
+
+
