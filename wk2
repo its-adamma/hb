@@ -1,4 +1,4 @@
-#Tues
+w#Tues
 
 # print("Hello world")
 
@@ -27,5 +27,41 @@ while True:
     else:
         print("Invalid!")
 print("Welcome to Mars!")
+
+#Thurs
+
+my_books = ["Dune", "Pride and Prejudice"]
+
+i = 0
+
+while i < len(my_books):
+    print(my_books[i])
+    i = i + 1
+
+# print("Brighticorn's Books")
+# print("----------")
+# print()
+# print("You can: add, view, check, exit ")
+# command = input("action > ").lower()
+# print("Action:", command)
+
+# if command == "exit":
+#     print("Goodbye!")
+# elif command == "add":
+#     print("Add Book")
+
+#     new_book = input("Title >")
+#     books.append(new_book)
+    
+#     print ("Added:", new_book)
+# elif command == "view":
+#     print("View Books")
+#     for book in books:
+#         print(book)
+
+# elif command == "check":
+#     print("Check for a Book")
+# else:
+#     print("Sorry, that's not an option.")
 
 
