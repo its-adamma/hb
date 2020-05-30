@@ -64,4 +64,72 @@ while i < len(my_books):
 # else:
 #     print("Sorry, that's not an option.")
 
+#5/30 Saturday
+
+def start_todo_list():
+
+    print("Welcome!")
+    print("Would you like to")
+    print("[A]dd a new task")
+    print("[D]elete a task")
+    print("[E]dit a task")
+    print("[V]iew all tasks")
+    print("[Q]uit the program")
+
+    todo_list = []
+
+    while True:
+        user_option = input("Choose an option: ")
+
+        if user_option == "A":
+            print("What task would you like to add?")
+            new_task = input (">")
+            
+            todo_list.append(new_task)
+            print("Successfully added {} ".format(new_task))
+
+
+        elif user_option == "D":
+            print("Which task would you like to delete?")
+            task_to_delete = input(">")
+
+        # ask them what they want to delete
+        # user enters task to delete
+        # find item on to do list 
+        # and remove it
+            tasks_to_keep = []
+        
+        # for task in todo_list: 
+        #     if tasks_to_delete == task in todo_list:
+        #         todo_list.remove(task_to_delete)
+        #     else:
+        #         print("Not in there")
+
+
+        # tell user that it was deleted
+        
+            for task in todo_list:
+                if task != task_to_delete:
+                    tasks_to_keep.append(task)
+                
+            todo_list = tasks_to_keep 
+            print ("Success, deleted {}".format(task_to_delete))
+
+        elif user_option == "V":
+            for task in todo_list:
+                print(task)
+
+        elif user_option == "Q":
+            print("Goodbye")
+            break
+
+# start_todo_list()
+
+# Say they want to add a task by typing A
+
+# Provide the task they want to add
+
+# See some sort of success message that the task was added
+
+start_todo_list()
 
