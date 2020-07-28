@@ -1,0 +1,19 @@
+#list
+nums = [2, 8, 9, 3, 7, 3]
+
+def threes_first(nums):
+#break print groups into two parts
+#declare empty list
+    yes_threes = []
+    not_threes = []
+#threes and not threes
+#print threes first, then the rest
+    for number in nums:
+        if number == 3:
+            yes_threes.append(number)
+        else:
+            not_threes.append(number)
+
+    return yes_threes + not_threes
+
+print (threes_first(nums))
