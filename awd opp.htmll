@@ -14,7 +14,7 @@ body {
         var data = google.visualization.arrayToDataTable([
           ['Task', 'Amount in $'],
           ['Half of Rent',     3000],
-          ['Utilities, other bills', 300]
+          ['Insurance', 240]
           ['Regular loan payment', 300],
           ['Laptop (Currently: 2010 tablet)',  999.00]
         ]);
@@ -40,5 +40,6 @@ body {
  + monitor to view lecture and work via dual monitor<br> 
  + headphones with mic<br>
  + $20 USB to USC-C Converter<br>
+ + $75 
 
 </html>
